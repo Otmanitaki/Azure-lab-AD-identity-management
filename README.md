@@ -18,7 +18,7 @@ The core focus of this lab was navigating real-world cloud networking hurdles, s
 
 ### 1. The Architectural Foundation
 I initiated the lab by deploying two Virtual Machines within the same Azure VNet. To ensure stable identity services, I assigned a static private IP to the Domain Controller(DC-05) and updated the Client VM’s(NewVM) DNS settings to point directly to it.
-
+![NewVM Creation and setting](assets/01-network-security-group-config.png)
 ![DNS Server Configuration](assets/02-dns-server-configuration.png)
 
 ### 2. The Connectivity Hurdle (Troubleshooting Phase)
