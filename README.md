@@ -64,4 +64,4 @@ The project concluded with a successful logon of the `Caw.Covi` domain user on t
 ## Conclusion
 This lab demonstrates the ability to manage complex cloud identity environments. Beyond simple setup, it showcases the diagnostic skills required to troubleshoot firewall-level blocks and apply enterprise-grade security policies through AD and GPMC.
 
-*Developed by [Taki] as part of an Advanced Azure Systems aand Active Directory Administration Portfolio.*
+**Developed by [Taki] as part of an Advanced Azure Systems and Active Directory Administration Portfolio.**
