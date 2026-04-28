@@ -32,7 +32,7 @@ A critical issue arose where the Client VM could not communicate with the Domain
 ### 3. NSG Optimization & Resolution
 I manually configured the Inbound Security Rules for the DC's NSG, by opening specific ports: **DNS (53), Kerberos (88), LDAP (389), and SMB (445)**. Then I established the necessary "handshake" between the machines.
 
-![NSG Verification](assets/04-connectivity-verification-ping-success.png)
+![NSG Verification](assets/04-connectivity-nsg-verification-ping-success.png)
 
 ### 4. Domain Integration & User Provisioning
 With connectivity confirmed via PowerShell, I performed the formal Domain Join. I authenticated the Windows 10 machine using the Domain Administrator credentials and verified its placement in the Active Directory Administrative Center (ADAC).
